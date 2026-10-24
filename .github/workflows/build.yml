@@ -8,6 +8,7 @@ on:
     branches: ["**"]
     tags-ignore: ["**"]
   pull_request:
+    types: [opened, synchronize, reopened, closed]
   workflow_dispatch:
     inputs:
       reason:
@@ -28,6 +29,7 @@ jobs:
     permissions:
       contents: write
       packages: write
+      actions: write
       pull-requests: write
       id-token: write
       attestations: write
