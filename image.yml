@@ -10,6 +10,10 @@ upstream:
   version:
     type: pip
     package: certbot
+  notes:
+    type: github_release
+    repo: certbot/certbot
+    tag: v${VERSION}
   sponsor:
   - name: Certbot
     url: https://supporters.eff.org/donate/support-work-on-certbot
