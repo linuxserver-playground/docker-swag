@@ -27,7 +27,7 @@ Find us at:
 
 [![GitHub Release](https://img.shields.io/github/release/linuxserver-playground/docker-swag.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver-playground/docker-swag/releases)
 [![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver-playground/docker-swag/packages)
-[![Docs](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Docs&logo=materialformkdocs)](https://docs.linuxserver.io/images/docker-swag)
+[![Docs](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Docs&logo=materialformkdocs)](https://linuxserver-playground.github.io/site/images/swag/)
 [![CI](https://ci.thelamer.duckdns.org:8443/badge/swag/latest.svg)](https://ci.thelamer.duckdns.org:8443/images/swag/latest)
 
 SWAG - Secure Web Application Gateway (formerly known as letsencrypt, no relation to Let's Encrypt™) sets up an Nginx webserver and reverse proxy with php support and a built-in certbot client that automates free SSL server certificate generation and renewal processes (Let's Encrypt and ZeroSSL). It also contains fail2ban for intrusion prevention.
@@ -152,7 +152,7 @@ Please follow the instructions [on this blog post](https://www.linuxserver.io/bl
 
 ## Read-Only Operation
 
-This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
+This image can be run with a read-only container filesystem. For details please [read the docs](https://linuxserver-playground.github.io/site/docs/misc/read-only/).
 
 ### Caveats
 
@@ -166,7 +166,7 @@ To help you get started creating a container from this image you can either use 
 > [!NOTE]
 > Unless a parameter is flagged as 'optional', it is *mandatory* and a value must be provided.
 
-### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
+### docker-compose (recommended, [click here for more info](https://linuxserver-playground.github.io/site/docs/general/docker-compose))
 
 ```yaml
 ---
@@ -261,7 +261,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e SWAG_AUTORELOAD=` | Set to `true` to enable automatic reloading of confs on change without stopping/restarting nginx. Your filesystem must support inotify. This functionality was previously offered [via mod](https://github.com/linuxserver/docker-mods/tree/swag-auto-reload). |
 | `-e SWAG_AUTORELOAD_WATCHLIST=` | A [pipe](https://en.wikipedia.org/wiki/Vertical_bar)-separated list of additional folders for auto reload to watch in addition to `/config/nginx` |
 | `-v /config` | Persistent config files |
-| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://linuxserver-playground.github.io/site/docs/misc/read-only/). |
 | `--cap-add=NET_ADMIN` | Required for fail2Ban to be able to modify iptables rules. |
 
 ### Portainer notice
@@ -305,7 +305,7 @@ uid=1000(your_user) gid=1000(your_user) groups=1000(your_user)
 
 ## Docker Mods
 
-[![Docker Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=swag&message=mods&logo=docker)](https://linuxserver-playground.github.io/hub/mods/?image=swag "view available mods for this container.") [![Docker Universal Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=universal&message=mods&logo=docker)](https://linuxserver-playground.github.io/hub/mods/?image=universal "view available universal mods.")
+[![Docker Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=swag&message=mods&logo=docker)](https://linuxserver-playground.github.io/site/mods/?image=swag "view available mods for this container.") [![Docker Universal Mods](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=universal&message=mods&logo=docker)](https://linuxserver-playground.github.io/site/mods/?image=universal "view available universal mods.")
 
 We publish various [Docker Mods](https://github.com/linuxserver-playground/docker-mods) to enable additional functionality within the containers. The list of Mods available for this image (if any) as well as universal mods that can be applied to any one of our images can be accessed via the badges above.
 
