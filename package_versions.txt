@@ -24,8 +24,8 @@ azure-mgmt-dns                  9.0.0             python
 backports-tarfile               1.2.0             python                           
 bash                            5.3.9-r1          apk                              
 beautifulsoup4                  4.15.0            python                           
-boto3                           1.43.123          python                           
-botocore                        1.43.123          python                           
+boto3                           1.43.126          python                           
+botocore                        1.43.126          python                           
 brotli-libs                     1.2.1-r0          apk                              
 bs4                             0.0.2             python                           
 busybox                         1.37.0-r31        apk                              
@@ -87,7 +87,7 @@ cli                             UNKNOWN           binary
 cli-32                          UNKNOWN           binary                           
 cli-64                          UNKNOWN           binary                           
 cli-arm64                       UNKNOWN           binary                           
-cloudflare                      5.9.0             python                           
+cloudflare                      5.10.0            python                           
 composer                        2.11.1            php-composer                     
 configargparse                  1.9.0             python                           
 configobj                       5.0.9             python                           
@@ -106,7 +106,7 @@ domeneshop                      0.4.4             python
 fail2ban                        1.1.0             python                           
 fail2ban                        1.1.0-r3          apk                              
 fail2ban-pyc                    1.1.0-r3          apk                              
-filelock                        4.2.7             python                           
+filelock                        4.2.9             python                           
 findutils                       4.10.0-r1         apk                              
 fontconfig                      2.17.1-r1         apk                              
 freetype                        2.14.3-r0         apk                              
@@ -123,7 +123,7 @@ gnupg-keyboxd                   2.4.9-r1          apk
 gnupg-utils                     2.4.9-r1          apk                              
 gnupg-wks-client                2.4.9-r1          apk                              
 gnutls                          3.8.13-r0         apk                              
-google-api-core                 2.43.2            python                           
+google-api-core                 2.44.0            python                           
 google-api-python-client        2.201.0           python                           
 google-auth                     2.62.1            python                           
 google-auth-httplib2            0.4.4             python                           
@@ -332,8 +332,8 @@ pyasn1                          0.6.5             python
 pyasn1-modules                  0.4.2             python                           
 pyc                             3.14.10-r1        apk                              
 pycparser                       3.12              python                           
-pydantic                        2.14.2            python                           
-pydantic-core                   2.50.2            python                           
+pydantic                        2.14.3            python                           
+pydantic-core                   2.50.4            python                           
 pygments                        2.21.0            python                           
 pyjwt                           2.15.1            python                           
 pynamecheap                     0.0.3             python                           
@@ -364,7 +364,7 @@ shadow                          4.18.0-r1         apk
 six                             1.17.0            python                           
 skalibs-libs                    2.15.0.0-r0       apk                              
 sniffio                         1.3.1             python                           
-soupsieve                       4.0               python                           
+soupsieve                       4.0.1             python                           
 sqlite-libs                     3.53.4-r0         apk                              
 ssl_client                      1.37.0-r31        apk                              
 tiff                            4.7.2-r0          apk                              
@@ -374,7 +374,7 @@ tomli                           2.4.0             python
 tomli-w                         1.2.0             python                           
 truststore                      0.10.5            python                           
 typing-extensions               4.16.0            python                           
-typing-inspection               0.4.4             python                           
+typing-inspection               0.4.5             python                           
 tzdata                          2026e-r0          apk                              
 unixodbc                        2.3.14-r1         apk                              
 uritemplate                     4.2.0             python                           
@@ -385,6 +385,6 @@ wheel                           0.48.0            python
 whois                           5.6.6-r0          apk                              
 xz-libs                         5.8.4-r0          apk                              
 zipp                            3.23.0            python                           
-zlib                            1.3.2-r1          apk                              
+zlib                            1.4-r0            apk                              
 zope-interface                  8.7               python                           
 zstd-libs                       1.5.7-r2          apk                              
