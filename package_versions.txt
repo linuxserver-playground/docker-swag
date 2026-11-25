@@ -24,8 +24,8 @@ azure-mgmt-dns                  9.0.0             python
 backports-tarfile               1.2.0             python                           
 bash                            5.3.9-r1          apk                              
 beautifulsoup4                  4.15.0            python                           
-boto3                           1.44.9            python                           
-botocore                        1.44.9            python                           
+boto3                           1.44.11           python                           
+botocore                        1.44.11           python                           
 brotli-libs                     1.2.1-r0          apk                              
 bs4                             0.0.2             python                           
 busybox                         1.37.0-r31        apk                              
@@ -50,7 +50,7 @@ certbot-dns-dnspod              0.1.0             python
 certbot-dns-do                  0.31.0            python                           
 certbot-dns-domeneshop          0.2.9             python                           
 certbot-dns-dreamhost           1.0               python                           
-certbot-dns-duckdns             1.9.0             python                           
+certbot-dns-duckdns             1.10.0            python                           
 certbot-dns-dynudns             0.0.6             python                           
 certbot-dns-freedns             0.2.0             python                           
 certbot-dns-gehirn              5.10.0            python                           
@@ -83,13 +83,13 @@ certbot-plugin-gandi            1.5.0             python
 certifi                         2026.10.23        python                           
 certifi                         2026.11.20        python                           
 cffi                            2.1.1             python                           
-charset-normalizer              3.5.2             python                           
+charset-normalizer              3.5.3             python                           
 cli                             UNKNOWN           binary                           
 cli-32                          UNKNOWN           binary                           
 cli-64                          UNKNOWN           binary                           
 cli-arm64                       UNKNOWN           binary                           
 cloudflare                      5.10.0            python                           
-composer                        2.11.2            php-composer                     
+composer                        2.11.3            php-composer                     
 configargparse                  1.10.2            python                           
 configobj                       5.0.9             python                           
 coreutils                       9.11-r0           apk                              
@@ -107,7 +107,7 @@ domeneshop                      0.4.4             python
 fail2ban                        1.1.0             python                           
 fail2ban                        1.1.0-r3          apk                              
 fail2ban-pyc                    1.1.0-r3          apk                              
-filelock                        4.3.0             python          (+1 duplicate)   
+filelock                        4.3.1             python          (+1 duplicate)   
 findutils                       4.10.0-r1         apk                              
 fontconfig                      2.17.1-r1         apk                              
 freetype                        2.14.3-r0         apk                              
@@ -173,7 +173,7 @@ libdav1d                        1.5.3-r0          apk
 libedit                         20260508.3.1-r1   apk                              
 libevent                        2.1.13-r0         apk                              
 libexpat                        2.10.0-r0         apk                              
-libffi                          3.5.2-r1          apk                              
+libffi                          3.8.1-r0          apk                              
 libgcc                          14.2.0-r6         apk                              
 libgcc                          15.2.0-r5         apk                              
 libgcrypt                       1.12.2-r0         apk                              
@@ -266,7 +266,8 @@ oniguruma                       6.9.10-r0         apk
 openssl                         3.5.9-r1          apk                              
 opentelemetry-api               1.45.2            python                           
 p11-kit                         0.26.2-r0         apk                              
-packaging                       26.3              python          (+2 duplicates)  
+packaging                       26.3              python          (+1 duplicate)   
+packaging                       26.4              python                           
 parsedatetime                   2.6               python                           
 pcre2                           10.49-r0          apk                              
 perl                            5.42.3-r0         apk                              
@@ -331,7 +332,7 @@ protobuf                        7.36.2            python
 pyacmedns                       0.4               python                           
 pyasn1                          0.6.5             python                           
 pyasn1-modules                  0.4.2             python                           
-pyc                             3.14.10-r1        apk                              
+pyc                             3.14.10-r2        apk                              
 pycparser                       3.12              python                           
 pydantic                        2.14.4            python                           
 pydantic-core                   2.50.5            python                           
@@ -346,9 +347,10 @@ pyrfc3339                       2.1.1             python
 python-dateutil                 2.9.0.post0       python                           
 python-digitalocean             1.17.0            python                           
 python-transip                  0.6.0             python                           
-python3                         3.14.10-r1        apk                              
-python3-pyc                     3.14.10-r1        apk                              
-python3-pycache-pyc0            3.14.10-r1        apk                              
+python3                         3.14.10-r2        apk                              
+python3-ndbm                    3.14.10-r3        apk                              
+python3-pyc                     3.14.10-r2        apk                              
+python3-pycache-pyc0            3.14.10-r2        apk                              
 pyyaml                          6.0.4             python                           
 readline                        8.3.3-r1          apk                              
 requests                        2.34.2            python          (+1 duplicate)   
